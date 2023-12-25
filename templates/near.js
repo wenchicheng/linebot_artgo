@@ -83,12 +83,13 @@ export default () => {
       contents: [
         {
           type: 'button',
-          style: 'link',
+          style: 'primary',
+          color: '#c775f9',
           height: 'sm',
           action: {
             type: 'uri',
-            label: '導航帶我去！',
-            uri: 'https://www.google.com/maps/search/市場'
+            label: '導航，GO!',
+            uri: 'https://www.google.com.tw/'
           }
         },
         {
@@ -102,10 +103,6 @@ export default () => {
     }
   }
 }
-
-// encodeURI() 中文轉換編碼的語法
-// decodeURI() 編碼的語法轉成中文
-// template.quickReply.items[0].action.uri = encodeURI('https://www.google.com/maps/search/市場')
 
 //   {
 //     type: 'bubble',
