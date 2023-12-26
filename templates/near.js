@@ -35,14 +35,14 @@ export default () => {
               contents: [
                 {
                   type: 'text',
-                  text: 'Place',
+                  text: '創作者',
                   color: '#aaaaaa',
                   size: 'sm',
                   flex: 1
                 },
                 {
                   type: 'text',
-                  text: 'Miraina Tower, 4-1-6 Shinjuku, Tokyo',
+                  text: 'author',
                   wrap: true,
                   color: '#666666',
                   size: 'sm',
@@ -57,14 +57,36 @@ export default () => {
               contents: [
                 {
                   type: 'text',
-                  text: 'Time',
+                  text: '媒材',
                   color: '#aaaaaa',
                   size: 'sm',
                   flex: 1
                 },
                 {
                   type: 'text',
-                  text: '10:00 - 23:00',
+                  text: 'material',
+                  wrap: true,
+                  color: '#666666',
+                  size: 'sm',
+                  flex: 5
+                }
+              ]
+            },
+            {
+              type: 'box',
+              layout: 'baseline',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'text',
+                  text: '位址',
+                  color: '#aaaaaa',
+                  size: 'sm',
+                  flex: 1
+                },
+                {
+                  type: 'text',
+                  text: 'address',
                   wrap: true,
                   color: '#666666',
                   size: 'sm',

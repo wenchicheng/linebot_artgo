@@ -26,14 +26,20 @@ export default async (event) => {
         const template = nearTemplate()
         template.hero.url = value.representImage?.replace('http://', 'https://') || 'https://www.moedict.tw/%E6%89%BE%E4%B8%8D%E5%88%B0.png?font=wt064'
         template.body.contents[0].text = value.name
-        // template.body.contents[1].contents[0].contents[0].text = '創作者'
-        // template.body.contents[1].contents[0].contents[1].text = value.author
-        // encodeURI() 中文轉換編碼的語法
-        // decodeURI() 編碼的語法轉成中文
-        // template.quickReply.items[0].action.uri = encodeURI('https://www.google.com/maps/search/地址')
-        // 使用 encodeURI 將地點套用到 Google 地圖導航的 URI
+        template.body.contents[1].contents[0].contents[1].text = value.author || '未詳'
+        // 確保每筆資料都有"author" 欄位，如果沒有則會顯示'未詳'
+
+        template.body.contents[1].contents[1].contents[1].text = value.material || '未詳'
+        template.body.contents[1].contents[2].contents[1].text = value.address || '未詳'
+
         const navigationUri = `https://www.google.com/maps/dir/?api=1&destination=${encodeURI(value.address)}`
         template.footer.contents[0].action.uri = navigationUri
+        /*
+        encodeURI() 中文轉換編碼的語法
+        decodeURI() 編碼的語法轉成中文
+        template.quickReply.items[0].action.uri = encodeURI('https://www.google.com/maps/search/地址')
+        使用 encodeURI 將地點套用到 Google 地圖導航的 URI
+        */
 
         return template
       })
