@@ -24,7 +24,7 @@ export default async (event) => {
       .slice(0, 5).map(value => {
         // 最多五筆資料
         const template = nearTemplate()
-        template.hero.url = value.representImage?.replace('http://', 'https://') || 'https://www.moedict.tw/%E6%89%BE%E4%B8%8D%E5%88%B0.png?font=wt064'
+        template.hero.url = value.representImage?.replace('http://', 'https://') || '../images/暫無圖片.jpg'
         template.body.contents[0].text = value.name
         template.body.contents[1].contents[0].contents[1].text = value.author || '未詳'
         // 確保每筆資料都有"author" 欄位，如果沒有則會顯示'未詳'
