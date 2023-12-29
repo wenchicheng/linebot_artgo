@@ -12,7 +12,10 @@
 
 ## 使⽤說明
 
-![選單](./images/01.jpg "選單")
+![選單](./images/01.jpg "選單" =100px)
+
+<img src="./images/01.jpg" alt="選單" width="200" />
+
 
 ## 公開資料來源
 
