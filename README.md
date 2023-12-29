@@ -4,13 +4,10 @@
 
 ## Line ID
 
-@642ikktz掃 QR code 或是點擊「加朋友」，加入「Open: TAIPEI」探索台北！
+@642ikktz
+掃 QR code 或是點擊「加朋友」，加入「Open: TAIPEI」探索台北！
 
 <img src="./images/642ikktz.png" title="Line ID" alt="Line ID" width="200" />
-
-<div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-env="REAL" data-count="true" data-home="true" data-lineId="@642ikktz" style="display: none;"></div>
-
-<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 
 
 
