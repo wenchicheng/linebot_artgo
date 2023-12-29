@@ -18,14 +18,23 @@
 
 加入好友開啟聊天，若無顯示選單，可點選 "選單" 按鈕開啟。
 按下選單 "附近" 可搜尋距離該位置小於3公里內，文化設施或公共藝術之照片、名稱、創作者、作品材質，最多顯示5筆資料。
+<br>
 <img src="./images/01.jpg"  title="選單-附近" alt="選單-附近" width="200" />
 <img src="./images/02.jpg" title="附近" alt="附近" width="200" />
-<br>
+
+
+---
+
 按下 "導航，GO!" 前往 google map 導航頁面，用戶可選擇要用何種交通方式前往地點。
+<br>
 <img src="./images/03.jpg" title="附近的地點" alt="附近的地點" width="200" />
 <img src="./images/04.jpg" title="導航" alt="導航" width="200" />
-<br>
+
+
+---
+
 按下選單 "地圖" 前往 "Open: TAIPEI" 精選開放空間地圖。
+<br>
 <img src="./images/05.jpg" title="選單-地圖" alt="地圖" width="200" />
 <img src="./images/06.jpg" title="地圖" alt="地圖" width="200" />
 
