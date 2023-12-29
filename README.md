@@ -1,7 +1,6 @@
 # Open: TAIPEI打開台北
-# 搜尋開放文化空間LINE機器人
+## 搜尋開放文化空間LINE機器人
 
-***
 
 ## Line ID
 
